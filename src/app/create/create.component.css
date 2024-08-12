@@ -1,0 +1,52 @@
+.content{
+    margin: 36px 5%;
+}
+
+.to-back{
+    padding: 8px 14px;
+    border: 2px solid rgba(128, 128, 128, 0.384);
+    background-color: transparent;
+    font-weight: 400;
+    border-radius: 2px;
+    font-size: 16px;
+    text-decoration: none;
+    color: #434652;      
+}
+
+.inputs{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+  
+}
+
+label{
+    margin-top: 25px;
+    margin-bottom: 5px;
+    font-weight: 500;
+}
+
+input{
+    padding: 8px;
+    border-radius: 2px;
+    border: 2px solid rgba(128, 128, 128, 0.384);
+}
+
+#desription{
+    height: 120px;
+}
+
+.but{
+    margin-top: 30px;
+}
+
+.but button{
+    width: 96px;
+    height: 36px;
+    background-color: #21A5B9;
+    color: white;
+    font-weight: 500;
+    border-radius: 4px;
+    border: none;
+    font-size: 14px;
+}

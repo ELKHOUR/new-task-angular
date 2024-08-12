@@ -1,0 +1,37 @@
+<div class="parant">
+
+
+    <div class="buttons">
+        <div class="left-btn">
+            <button class="right">Список</button>
+            <button class="right">Плитка</button>
+        </div>
+        <div class="right-btn">
+            <button class="left">Создать</button>
+        </div>
+    </div>
+
+    
+
+    <div class="cards">
+
+
+
+        @for (city of cities; track city.id) {
+
+            <app-card [city]="city" />
+
+        }@empty {
+            <h1>No Items</h1>
+        }
+
+
+
+        <!-- <app-s-card/> -->
+        
+    </div>
+
+
+
+
+</div>
