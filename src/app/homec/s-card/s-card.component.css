@@ -1,0 +1,26 @@
+.scard{
+    border-top: 1px solid #D3D4DB;
+    padding: 15px 0px;
+    display: flex;
+    align-items: center;
+}
+
+.scard img{
+    width: 200px;
+    height: 150px;
+    border-radius: 8px;
+}
+.card-title{
+    font-size: 16px;
+    font-weight: 500;
+    margin-right: 15px;
+}
+
+.card-desc{
+    font-size: 14px;
+    margin-top: 8px;
+}
+.active{
+    color: gold;
+    font-size: 18px;
+}

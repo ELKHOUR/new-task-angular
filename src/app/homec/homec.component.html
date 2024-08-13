@@ -1,13 +1,12 @@
 <app-demo/>
-
 <div class="parant">
     <div class="buttons">
         <div class="left-btn">
-            <button routerLink="columns" class="right active">Список</button>
-            <button  class="right" >Плитка</button>
+            <button class="right ">Список</button>
+            <button routerLink="" class="right active">Плитка</button>
         </div>
         <div class="right-btn">
-            <button class="left" routerLink="create/">Создать</button>
+            <button class="left" routerLink="create">Создать</button>
         </div>
     </div>
 
@@ -17,7 +16,7 @@
 
         @for (city of cities; track city.id) {
 
-            <app-card [city]="city" />
+            <app-s-card [city]="city" />
 
 
         }@empty {

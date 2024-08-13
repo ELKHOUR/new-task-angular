@@ -1,18 +1,17 @@
 import { Component } from '@angular/core';
-import { CardComponent } from './card/card.component';
-import { ICities } from './home.component.models';
-import { RouterModule } from '@angular/router';
 import { DemoComponent } from '../nav/demo.component';
-
+import { RouterModule } from '@angular/router';
+import { ICities } from './homec.component.models';
+import { SCardComponent } from './s-card/s-card.component';
 
 @Component({
-  selector: 'app-home',
+  selector: 'app-homec',
   standalone: true,
-  imports: [DemoComponent, CardComponent, RouterModule],
-  templateUrl: './home.component.html',
-  styleUrl: './home.component.css'
+  imports: [DemoComponent, SCardComponent, RouterModule],
+  templateUrl: './homec.component.html',
+  styleUrl: './homec.component.css'
 })
-export class HomeComponent {
+export class HomecComponent {
   readonly cities: Array<ICities> = [
     {
       id:1,
@@ -63,13 +62,12 @@ export class HomeComponent {
       favorite:true,
       imageUrl:"https://s3-alpha-sig.figma.com/img/bf12/2c35/036ae0717c9d737eb786f1ada786bc19?Expires=1724630400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=dToQ5ElnQ2GaS2jArhNJ5bWp4RSdDbfC2m0fwNKaxwXqSUBVIDHzgT~tVkKySdf0zq5OU-KpuZT7W4qVueEFN171QmOhpBEmYIK-0lnpxdbZ4BwnxuttsPnZMkPRl8m1Gj2-1q0B4leU0M5tZnLcq~eo9wjh08jaMCW1aLTSmTIztf~HnH~Su10XjqdEzTMbREBEF0tkB20JVmFZRbiXZVCa5SFK5Hq4b3nnYEC~qxLBcImyQt6SuEgXnmlU2XDMJ4n8COtilMh~KdYz6qgrICPo0QvA9BJdST07kjP~x3Dw6wUf-AnDXjfmOaCkei8s~X0IdTKDlTL22t86kM66Cw__"
    },
-    {
-      id:8,
-      city_name:"Синай",
-      description:"Город в Египте с прекрасными видами",
-      favorite:true,
-      imageUrl:"https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Mount_Moses.jpg/408px-Mount_Moses.jpg"
-   }
+   {
+    id:8,
+    city_name:"Синай",
+    description:"Город в Египте с прекрасными видами",
+    favorite:true,
+    imageUrl:"https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Mount_Moses.jpg/408px-Mount_Moses.jpg"
+ },
   ]
-
 }

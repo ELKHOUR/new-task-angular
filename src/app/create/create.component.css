@@ -1,3 +1,16 @@
+nav{
+    height: 117px;
+    background-color: #F2F5FA;
+    width: 100%;
+}
+nav p{
+    color: #434652;
+    font-size: 28px;
+    font-weight: 500;
+    margin-top: 40px;
+    margin-left: 5%;
+    display: inline-block;
+}
 .content{
     margin: 36px 5%;
 }

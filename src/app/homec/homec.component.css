@@ -29,14 +29,8 @@
     font-size: 14px;
 }
 
-
-.cards{
-    display: flex;
-    flex-wrap: wrap;
-    gap: 28px;
-    justify-content: center;
-}
-
 .active{
     background-color: transparent;
 }
+
+
